@@ -163,3 +163,49 @@ footer {
     text-decoration: underline;
 }
 
+.background{
+    color: white;
+}
+.experience{
+    color: white;
+}
+
+.intro{
+    color: white;
+}
+
+.skills-interests{
+    color: white;
+}
+
+.personal-story{
+    color: white;
+}
+
+.contact-info{
+   color: white; 
+}
+
+
+.image-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#rotating-image {
+    width: 100%;
+    height: auto;
+    border: 2px solid #000;
+    animation: rotate 30s linear infinite;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
